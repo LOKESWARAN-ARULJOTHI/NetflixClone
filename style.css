@@ -1,0 +1,373 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+#div1{
+    position: relative;
+    width: 100%;
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center ;
+    background-size: cover;
+    height:650px;
+    border-bottom: 8px rgb(34, 34, 34) solid;
+}
+.nav{
+    display: flex;
+    background:linear-gradient(180deg,rgba(0, 0, 0,0.6),rgba(15, 15, 15,0.2));
+    justify-content: space-between;
+    padding: 1% 5%;
+    padding-bottom: 100px;
+}
+.nav img{
+    width: 150px;
+}
+.nav button{
+    font-weight: bold;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border: 0ch;
+    padding-top: 8px;
+    outline: 0ch;
+    background-color: red;
+}
+.nav a{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: 0ch;
+    border-radius: 2px;
+    outline: 0ch;
+    background-color: red;
+    margin: 5px 0px;
+    padding: 0px 20px;
+}
+.container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#div1 .line1{
+    margin: 10px 8.6%;
+}
+#div1 .line1 h1{
+    font-size: 50px;
+}
+#div1 .line2{
+    margin: 10px 8.6%;
+}
+
+#div1 .line2 h4{
+    font-size: 26px;
+    font-weight: lighter;
+}
+#div1 .line3 h5{
+    font-size: 19px;
+    font-weight: lighter;
+}
+#div1 .line3 input{
+    margin-top: 20px;
+    padding: 10px 5px;
+    outline: none;
+}
+#div1 .line3 button{
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 6.5px 20px;
+}
+/* DIVISION 2 */
+#div2{
+    background-color: black;
+    padding: 45px 45px;
+    height: 550px;
+    border-bottom: 8px rgb(34, 34, 34) solid;
+}
+.container2{
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5% 3%;   
+    display: flex; 
+    position: relative;
+}
+.lines{
+    text-align: left;
+    margin: auto 0px;
+    flex: 0 2 auto;
+}
+.lines h1{
+    padding:  20p 0px;
+    font-size: 50px;
+    flex: 0 2 auto;
+}
+.lines h4{
+    padding: 20px 100px 20px 0px;
+    font-size: 28px;
+    font-weight: lighter;
+    flex: 0 2 auto;
+}
+.vid1 video{
+    width: 100%;
+    flex: 0 5  auto;
+}
+/* DIVISION 3 */
+#div3{
+    background-color: black;
+    padding: 75px 45px;
+    height: 600px;
+    border-bottom: 8px rgb(34, 34, 34) solid;
+}
+/* DIVISION 4 */
+#div4{
+    background-color: black;
+    padding: 75px 45px;
+    height: 600px;
+    border-bottom: 8px rgb(34, 34, 34) solid;
+}
+.lists{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.lists h1{
+    font-size: 48px;
+    padding: 48px 0px  64px 0px ;
+}
+.title1{
+    text-decoration: none;
+    background-color: #303030;
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.item:target .plus{
+    transform: rotate(45deg);
+}
+.text{
+    background-color: #303030;
+    color: white;
+    margin: 3px 0;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: left;
+    height: 0px;
+    opacity: 0;
+}
+.item:target .text{
+    display: block;
+    opacity: 1;   
+    height: auto;
+    padding: 20px 30px;
+    border-bottom: 2px solid #242323;
+}
+#div4 .line3 h5{
+    margin-top: 40px ;
+    font-size: 19px;
+    font-weight: lighter;
+}
+#div4 .line3 input{
+    margin-top: 20px;
+    padding: 10px 5px;
+    outline: none;
+}
+#div4 .line3 button{
+    cursor: pointer;
+    margin-top: 25px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    padding: 6.5px 20px;
+}
+#div5{
+    border-bottom: 8px solid #242323;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 15%;
+}
+#div5 .container5{
+    padding: 0ch 15%;
+    text-align: left;
+}
+#div5 .container5 h4{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+    font: caption;
+}
+#div5 .container5 h5{
+    font-size: 16px;
+    color: #757575;
+    margin: 40px 0;
+    font: caption;
+}
+.list2{
+    display: flex;
+    justify-content: space-between;
+}
+.list2 ul{
+    list-style: none;
+}
+.list2 ul li{
+    margin-right: 16px;
+    padding-bottom:12px;
+}
+.list2 ul li a{
+    color: #757575;
+    font-size: 13px;
+}
+footer{
+    padding: 10px 0;
+    background-color: black;
+}
+/* Max width is 1200px */
+@media screen and (max-width:1200px){
+    .container1{
+        width: 80%;
+    }
+    #div4{
+        height: 800px;
+    }
+}
+/* Max width is 968px */
+@media screen and (max-width:970px){
+    #div1{
+        height: 720px;
+    }
+    .nav button{
+        font-weight: lighter;
+        margin-top: 2.5px;
+    }
+    .container1{
+        width: 80%;
+    }
+    .line1 h1{
+        font-size: 50px;
+    }
+    .line2 h4{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .line3 h5{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .nav button{
+        font-weight: lighter;
+        margin-top: 2.5px;
+    }
+    #div2{
+        padding: 1px;
+        height: 690px;
+    }
+    #div3{
+        padding: 1px;
+        height: 690px;
+    }
+    #div3 .lines{
+        order: 0;
+    }
+    #div3 .vid1{
+        order: 1;
+    }
+    .container2{
+        margin-top: -5%;
+        margin-left: 7%;
+        width: 90%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .lines{
+        text-align: center;
+    }
+    .lines h1{
+        font-size: 40px;
+        padding:12% 16% 1px 16%;
+    }
+    .lines h4{
+        padding: 20px 16%;
+        font-size: 20px;
+    }
+    .vid1{
+        position: relative;
+        padding: 0px 16%;
+    }
+    #div4{
+        height: 570px;
+        padding: 0ch;
+        width: 100%;
+    }
+    .lists{
+        width: 90%;
+    }
+    .lists h1{
+        padding: 30px 0;
+        font-size:35px;
+    }
+    .title1{
+        font-size: 20px ;
+    }
+    .text{
+        font-size: 20px;
+    }
+    #div5 .container5{
+        padding: 0ch 0%;
+        text-align: left;
+    }
+}
+/* Max width is 600px */
+@media screen and (max-width:600px){
+    .line1 h1{
+        font-size: 28px;
+    }
+    .line2 h4{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .line3 h5{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    .nav button{
+        font-weight: lighter;
+        margin-top: 2.5px;
+    }
+    #div2{
+        height: 450px;
+    }
+    #div3{
+        height: 450px;
+    }
+    .lines h1{
+        font-size: 30px;
+    }
+    .lines h4{
+        font-size: 18px;
+    }#div4{
+        height: 650px;
+        padding: 0ch;
+    }
+    .title1{
+        text-align: left;
+    }
+    #div5{
+        padding: 10%;
+        height: 300px;
+    }
+}
