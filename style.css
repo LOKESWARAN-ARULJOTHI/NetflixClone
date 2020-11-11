@@ -256,7 +256,7 @@ footer{
         margin-top: 2.5px;
     }
     #div1 .line3 input{
-        width:60%;
+        width:60% !important ;
     }
     .container1{
         width: 80%;
