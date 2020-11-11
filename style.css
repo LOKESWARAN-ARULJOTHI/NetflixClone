@@ -73,6 +73,7 @@ body{
     font-weight: lighter;
 }
 #div1 .line3 input{
+    width:60%;
     margin-top: 20px;
     padding: 10px 5px;
     outline: none;
