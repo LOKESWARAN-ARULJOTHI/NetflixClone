@@ -254,6 +254,9 @@ footer{
         font-weight: lighter;
         margin-top: 2.5px;
     }
+    #div1 .line3 input{
+        size:25;
+    }
     .container1{
         width: 80%;
     }
