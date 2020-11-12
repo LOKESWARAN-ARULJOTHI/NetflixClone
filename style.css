@@ -237,6 +237,9 @@ footer{
     padding: 10px 0;
     background-color: black;
 }
+#name{
+    text-decoration:none;
+}
 /* Max width is 1200px */
 @media screen and (max-width:1200px){
     .container1{
