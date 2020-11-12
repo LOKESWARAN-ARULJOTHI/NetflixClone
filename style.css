@@ -315,6 +315,9 @@ footer{
         position: relative;
         padding: 0px 16%;
     }
+    .item:target #div4{
+        height:800px
+    }
     #div4{
         height: 600px;
         padding: 0ch;
